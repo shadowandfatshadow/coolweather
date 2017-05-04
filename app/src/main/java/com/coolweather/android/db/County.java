@@ -13,13 +13,13 @@ public class County extends DataSupport {
 
     private String weatherId;           //对应的天气的id
 
-    private String cityId;              //所属城市的id
+    private int cityId;              //所属城市的id
 
-    public String getCityId() {
+    public int getCityId() {
         return cityId;
     }
 
-    public void setCityId(String cityId) {
+    public void setCityId(int cityId) {
         this.cityId = cityId;
     }
 
